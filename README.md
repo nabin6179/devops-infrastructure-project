@@ -315,37 +315,22 @@ git log --oneline --all --decorate
 
 The following screenshots are included for the project:
 
-### Firewall
+### Firewall Status
 
-```bash
-sudo ufw status verbose
-```
+![UFW Firewall Status](screenshots/01-ufw-status.png)
 
-### Docker Containers
+### Running Docker Containers
 
-```bash
-docker ps
-```
+![Docker Containers](screenshots/02-docker-ps.png)
 
-### Browser
+### Reverse Proxy Application
 
-Browser showing:
+![Nginx Reverse Proxy](screenshots/03-browser-nginx.png)
 
-```text
-http://localhost/
-```
+### Infrastructure Health Check
 
-### Health Check
+![Infrastructure Health Check](screenshots/04-health-check.png)
 
-```bash
-sudo /opt/scripts/infra_health_check.sh
-```
-
-### Health Log
-
-```bash
-sudo cat /var/log/infra_health.log
-```
 
 ## 16. Final Result
 
